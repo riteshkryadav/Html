@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    /* display: flex; */
+    border: 1px solid black;
+    /* background-image: url("Sky-and-Moon-Dark-Wallpaper-for-Desktop-and-Laptop.jpg"); */
+    font-size: 2vw;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(auto, 100px);
+    place-self: center ;
+    height: 100vh;
+
+}
+
+.item1 {
+    background-color: rgba(170, 239, 160, 0.434);
+    /* border: 1px solid rgba(102, 51, 153, 0.414); */
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-radius: 10px;
+    height: 10VH;
+    text-align: center;
+    font-size: 5vw 5vh; 
+
+    /* grid-row: 1; */
+    /* grid-column-end: span 4;
+    grid-row-end: span 2; */
+}
+.item2 {
+    background-color: rgba(231, 180, 220, 0.363);
+    /* border: 1px solid rgb(130, 171, 46); */
+    grid-row-start: 2;
+    border-radius: 10px;
+    text-align: center;
+    grid-row-end: 5;
+    grid-row-end: span 6;
+
+    
+}
+
+/* .item2:hover { 
+    z-index: 1 ;
+    grid-row-start: span 3;
+    grid-row-end: span 2; */
+/* }  */
+.item3 {
+    background-color: rgba(192, 219, 112, 0.401);
+    /* border: 1px solid rgb(230, 201, 222); */
+    border-radius: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* grid-column: 3;
+    grid-row: 1; */
+    /* grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2; */
+    /* z-index: 1; */
+}
+
+.item4 {
+    background-color: rgb(186, 185, 248);
+    /* border: 1px solid rebeccapurple; */
+    border-radius: 10px;
+    text-align: center;
+   
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* grid-column: 1;
+    grid-row: 2; */
+}
+
+.item5 {
+    background-color: rgba(234, 0, 0, 0.746);
+    border-radius: 10px;
+    text-align: center;
+    /* border: 1px solid rgb(144, 188, 216); */
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: span 6;
+    /* grid-column: 2;
+    grid-row: 2; */
+}
+.item6 {
+    background-color: rgb(250, 252, 247);
+    /* border: 1px solid rgb(65, 209, 142); */
+    /* grid-column: 3;
+    grid-row: 3; */
+    /* grid-column-start: span 4; */
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 25px;
+    margin: 100px 0 0 0;
+}
+
+
+@media screen and (min-width: 200px){
+    body {
+        background-color: blue
+        
+        /* font-size: 5vh; */
+    }
+ 
+    
+    
+}
+@media screen and (min-width: 500px ){
+    body {
+        background-color: rgb(0, 255, 238)
+
+    }
+ 
+    
+}
+
+@media screen and (min-width: 800px){
+    body {
+        background-color: rgb(255, 0, 149)
+
+    }
+  
+    
+}
